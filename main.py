@@ -44,11 +44,11 @@ class GraphWindow(QMainWindow):
         self.setGeometry(150, 150, 600, 400)
         self.setStyleSheet(f"background-color: {background};")
 
-        # Create a button to start the graph animation
+        # button animation stuff
         self.start_animation_button = QPushButton("Start Graph Animation", self)
         self.start_animation_button.clicked.connect(self.start_graph_animation)
 
-        # Set the layout
+        # Setting layout
         layout = QVBoxLayout()
         layout.addWidget(self.start_animation_button)
 
