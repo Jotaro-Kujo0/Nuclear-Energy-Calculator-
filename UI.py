@@ -1,15 +1,14 @@
 #!/usr/bin/env python3
 """
-nuclear_simulator_full.py
+nuclear_simulator.py
 
-Comprehensive desktop simulator combining:
-- isotope library and editing
+feutures:
+- isotope library and edit
 - physics helpers (binding energy, mass-energy, gamma freq, Doppler)
-- scenario controls (temp, radiation type, decay, capture net)
+- scenario control (temp, radiation type, decay, capture net)
 - reaction queue and simulation engine
-- interactive command console
-- Matplotlib plotting of multiple runs (colored lines)
-- export plot and log
+- interactive command console (at test)
+- multiple runs (colored lines)
 
 Dependencies:
     pip install pyqt5 matplotlib
